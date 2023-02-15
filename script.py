@@ -14,6 +14,8 @@
 # Puedo ver un archivo en U verde y otro en M amarillo, en ese instante puedo decidir si hago commits de ambos o solo de uno / git add archivo.py le dice al sistema que ese archivo que esta en working directory(estado 1) lo quiero mover a stagin area (estado 2)
 # git add . ,Agrega todo lo nuevo, tanto en la carpeta deonde estoy parado como en las subcarpetas
 # Para ir a un commit uso: git log / copio el numero_commit(amarillo) / git checkout numero_commit(amarillo)
+# Luego para volver a la rama principal ejecuto: git checkout main (Para volver al presente)
+# history ,Me muestra todo lo que hemos hecho, en la ultima sesion
 
 
 from modulo import suma, resta, Persona
