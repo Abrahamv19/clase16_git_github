@@ -12,9 +12,17 @@
 # git commit -m 'titulo de commit' ,Para nombrar mis commits, puntos de recuperacion (entre 1 y 4 lineas para resumir lo que hicimos)
 # git log ,Muestra como esta configurada mi maquina, Author y Date y los commit que hayan
 # Puedo ver un archivo en U verde y otro en M amarillo, en ese instante puedo decidir si hago commits de ambos o solo de uno / git add archivo.py le dice al sistema que ese archivo que esta en working directory(estado 1) lo quiero mover a stagin area (estado 2)
+# git add . ,Agrega todo lo nuevo, tanto en la carpeta deonde estoy parado como en las subcarpetas
 
+
+from modulo import suma, resta
 
 print('Hola mundo')
+
+print(f'La suma de 1 + 2 es igual a {suma(1,2)}')
+
+print(f'La resta de 2 - 1 es igual a {resta(2,1)}')
+
 
 
 
